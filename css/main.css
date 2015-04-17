@@ -12,3 +12,9 @@ body {
   overflow: hidden;
 }
 
+.stars {
+  height: 100%;
+  width: 100%;
+  background: transparent url("../img/stars.svg") ;
+
+}
