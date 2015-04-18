@@ -46,5 +46,28 @@ body {
   position: absolute;
   top: 300px;
   width: 300px;
+  -webkit-animation: asteroid-rotate 3s ease-in-out infinite alternate;
+  animation: asteroid-rotate 3s ease-in-out infinite alternate;
+}
 
-  }
+@-webkit-keyframes asteroid-rotate {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(860deg); }
+}
+
+@keyframes asteroid-rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(860deg); }
+}
+
+
+
+
+
+
+
+
+
+
+
+  
