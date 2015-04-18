@@ -16,7 +16,19 @@ body {
   height: 100%;
   width: 100%;
   background: transparent url("../img/stars.svg") ;
+   -webkit-animation: star-scale 18s ease-in-out infinite alternate;
+   animation: star-scale 18s ease-in-out infinite alternate;
 
+}
+
+@-webkit-keyframes star-scale {
+  from { -webkit-transform: scale(1, 1); }
+  to { -webkit-transform: scale(1.4, 1.8); }
+}
+
+@keyframes star-scale {
+  from { transform: scale(1, 1); }
+  to { transform: scale(1.4, 1.8); }
 }
 
 
